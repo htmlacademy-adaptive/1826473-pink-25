@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Юлия Василько](https://up.htmlacademy.ru/adaptive/25/user/1826473).
-* Наставник: `Павел Нюкало`.
+* Наставник: `Павел Нюкало`(https://htmlacademy.ru/profile/nyukalopavel)
 
 ---
 
