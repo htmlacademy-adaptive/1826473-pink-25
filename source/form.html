@@ -44,11 +44,12 @@
   <main class="main-form">
     <h1 class="visually-hidden">Конкурс</h1>
     <section class="competition">
-    <p class="competition__description">Конкурс на самое безбашенное путешествие с Пинк
-    </p>
+      <p class="competition__description">Конкурс на самое безбашенное путешествие с Пинк
+      </p>
     </section>
     <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
-      <p class="auth-form__field-group">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
+        <p class="auth-form__field-group">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на
+          вашу бонусную карту! Пожалуйста, заполните форму ниже:</p>
         <fieldset class="auth-form__fieldset ">
           <ul class="auth-form__list">
             <li class="auth-form__items">
@@ -61,98 +62,100 @@
             </li>
             <li class="auth-form__items">
               <label class="auth-form__label">Отчество:</label>
-              <input class="auth-form__text" type="text" name="middle-name" id="middle-name" placeholder="Ну и отчество тоже">
+              <input class="auth-form__text" type="text" name="middle-name" id="middle-name"
+                placeholder="Ну и отчество тоже">
             </li>
           </ul>
         </fieldset>
-        <fieldset class="auth-form__field--apps">
+        <fieldset class="auth-form__fieldset auth-form__fieldset--apps">
           <legend class="auth-form__title">С каким приложением путешествовали?</legend>
           <ul class="auth-form__list">
             <li class="auth-form__items">
               <input class="radio" type="radio" name="app" value="ios" checked>
               <span class="auth-form__radio"> Pink для iOS</span>
-              </li>
-              <li class="auth-form__items">
-                <input class="radio" type="radio" name="app" value="android">
-                <span class="auth-form__radio"> Pink на Android</span>
-                </li>
-                <li class="auth-form__items">
-                  <input class="radio" type="radio" name="app" value="Windows">
-                  <span class="auth-form__radio">Windows Phone</span>
-                  </li>
+            </li>
+            <li class="auth-form__items">
+              <input class="radio" type="radio" name="app" value="android">
+              <span class="auth-form__radio"> Pink на Android</span>
+            </li>
+            <li class="auth-form__items">
+              <input class="radio" type="radio" name="app" value="Windows">
+              <span class="auth-form__radio">Windows Phone</span>
+            </li>
           </ul>
         </fieldset>
-      <fieldset class="auth-form__contacts">
-        <legend class="auth-form__title">контактная информация</legend>
-        <ul class="auth-form__list">
-          <li class="auth-form__items">
-            <input class="tel-number" type="tel" name="tel-number" placeholder="Номер, пожалуйста">
-            <label class="auth-form__label">НОМЕР ТЕЛЕФОНА</label>
+        <fieldset class="auth-form__fieldset auth-form__fieldset--contacts">
+          <legend class="auth-form__title">контактная информация</legend>
+          <ul class="auth-form__list">
+            <li class="auth-form__items">
+              <input class="tel-number" type="tel" name="tel-number" placeholder="Номер, пожалуйста">
+              <label class="auth-form__label">НОМЕР ТЕЛЕФОНА</label>
             </li>
             <li class="auth-form__items">
               <input class="email" type="email" name="email" placeholder="Введите почту *" required>
               <label class="auth-form__label">АДРЕС ПОЧТЫ</label>
-              </li>
-        </ul>
-      </fieldset>
-      <fieldset class="auth-form__contacts">
-        <legend class="auth-form__title">Ваши безбашенные достижения в путешествии</legend>
-        <ul class="auth-form__list">
-          <li class="auth-form__items">
-            <label class="auth-form__items--control">
-            <input class="control-input" type="checkbox" name="selfi" checked>
-              <span class="control-mark"></span>
-              <span class="control-label">Сделал селфи с акулой</span>
-            </label>
-          </li>
-          <li class="auth-form__items">
-            <label class="auth-form__items--control">
-            <input class="control-input" type="checkbox" name="Norris">
-              <span class="control-mark"></span>
-              <span class="control-label">Видел Чака Норриса</span>
-            </label>
-          </li>
-          <li class="auth-form__items">
-            <label class="auth-form__items--control">
-            <input class="control-input" type="checkbox" name="tower" checked>
-              <span class="control-mark"></span>
-              <span class="control-label">Удержал башню</span>
-            </label>
-          </li>
-          <li class="auth-form__items">
-            <label class="auth-form__items--control">
-              <input class="control-input" type="checkbox" name="beach" checked>
-              <span class="control-mark"></span>
-              <span class="control-label">Обгорел на пляже</span>
-            </label>
-          </li>
-          <li class="auth-form__items">
-            <label class="auth-form__items--control">
-              <input class="control-input" type="checkbox" name="souveniers">
-              <span class="control-mark"></span>
-              <span class="control-label">Накупил сувениров</span>
-            </label>
-          </li>
-          <li class="auth-form__items">
-            <label class="auth-form__items--control">
-              <input class="control-input" type="checkbox" name="hotel">
-              <span class="control-mark"></span>
-              <span class="control-label">Разгромил отель</span>
-            </label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset class="auth-form__contacts">
-        <legend class="auth-form__title">Опишите свои эмоции</legend>
-        <textarea class="auth-form__emotions" name="emotions" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
-      </fieldset>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="auth-form__fieldset auth-form__fieldset--contacts">
+          <legend class="auth-form__title">Ваши безбашенные достижения в путешествии</legend>
+          <ul class="auth-form__list">
+            <li class="auth-form__items">
+              <label class="auth-form__label checkbox">
+                <input class="checkbox__input" type="checkbox" name="selfi" checked>
+                <span class="checkbox__mark"></span>
+                <span class="checkbox__label">Сделал селфи с акулой</span>
+              </label>
+            </li>
+            <li class="auth-form__items">
+              <label class="auth-form__label checkbox">
+                <input class="checkbox__input" type="checkbox" name="Norris">
+                <span class="checkbox__mark"></span>
+                <span class="checkbox__label">Видел Чака Норриса</span>
+              </label>
+            </li>
+            <li class="auth-form__items">
+              <label class="auth-form__label checkbox">
+                <input class="checkbox__input" type="checkbox" name="tower" checked>
+                <span class="checkbox__mark"></span>
+                <span class="checkbox__label">Удержал башню</span>
+              </label>
+            </li>
+            <li class="auth-form__items">
+              <label class="auth-form__label checkbox">
+                <input class="checkbox__input" type="checkbox" name="beach" checked>
+                <span class="checkbox__mark"></span>
+                <span class="checkbox__label">Обгорел на пляже</span>
+              </label>
+            </li>
+            <li class="auth-form__items">
+              <label class="auth-form__label checkbox">
+                <input class="checkbox__input" type="checkbox" name="souveniers">
+                <span class="checkbox__mark"></span>
+                <span class="checkbox__label">Накупил сувениров</span>
+              </label>
+            </li>
+            <li class="auth-form__items">
+              <label class="auth-form__label checkbox">
+                <input class="checkbox__input" type="checkbox" name="hotel">
+                <span class="checkbox__mark"></span>
+                <span class="checkbox__label">Разгромил отель</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="auth-form__fieldset auth-form__fieldset--contacts">
+          <legend class="auth-form__title">Опишите свои эмоции</legend>
+          <textarea class="auth-form__emotions" name="emotions"
+            placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+        </fieldset>
     </form>
-       <div class="auth-form auth-form__wrapper--submit">
-       <input class="auth-form__submit" type="submit" value="Отправить форму">
-       <span class="auth-form__required">* — обязательные для заполнения поля</span>
+    <div class="auth-form__submit-block auth-form__items--submit">
+      <input class="auth-form__submit" type="submit" value="Отправить форму">
+      <span class="auth-form__required">* — обязательные для заполнения поля</span>
       </div>
   </main>
-  <footer class="page-footer page-footer--main ">
+  <footer class="page-footer">
     <div class="page-footer__container">
       <section class="page-footer__contacts">
         <h2 class="page-footer__title">Остались вопросы? Свяжитесь с нами! </h2>
@@ -245,4 +248,5 @@
     </div>
   </footer>
 </body>
+
 </html>
