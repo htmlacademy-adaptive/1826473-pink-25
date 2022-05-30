@@ -1,0 +1,9 @@
+.logo {
+  &:hover {
+    color: #d22856;
+  }
+
+  &--down {
+    opacity: 0.3;
+  }
+}

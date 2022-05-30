@@ -1,0 +1,59 @@
+.auth-form {
+  color: #000000;
+  text-align: center;
+}
+
+.auth-form__field-group {
+  color: #283645;
+}
+
+.auth-form__fieldset {
+  border: 2px solid #e5e5e5;
+  border-radius: 1px;
+}
+
+.auth-form__title {
+  color: #d22856;
+  text-transform: uppercase;
+}
+
+.auth-form__label {
+  color: #d22856;
+  text-transform: uppercase;
+}
+
+.auth-form__fieldset-name {
+  border: none;
+}
+
+.auth-form__items {
+  list-style-type: none;
+}
+
+.auth-form__text {
+  color: #000000;
+}
+
+.auth-form__submit {
+  color: #ffffff;
+  background-color: #2aab6d;
+  text-transform: uppercase;
+}
+
+.auth-form__required {
+  text-transform: uppercase;
+}
+
+.auth-form__emotions {
+  border: 2px solid #e5e5e5;
+  border-radius: 1px;
+}
+
+.auth-form__radio {
+  background-color: #ffffff;
+}
+
+.auth-form__radio.control-mark {
+  border-radius: 50%;
+  margin: 0;
+}

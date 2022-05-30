@@ -1,0 +1,58 @@
+
+.page-footer__details {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-footer__container {
+  margin: 0 auto;
+}
+
+.page-footer__contacts {
+  text-align: center;
+}
+
+.page-footer__consultation {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.social.page-footer__social {
+  margin: 0 auto;
+}
+
+.social__item {
+  display: inline-block;
+  border: 2px solid #283645;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 9px;
+  width: 54px;
+  height: 54px;
+}
+
+
+.page-footer__where {
+  color: #d22856;
+  text-decoration: none;
+}
+
+.page-footer__tel {
+  color: #d22856;
+  text-decoration: none;
+}
+
+.page-footer__link {
+  color: #d22856;
+  text-decoration: none;
+}
+
+.copyright.page-footer__copyright {
+  display: flex;
+  text-decoration: none;
+
+}
