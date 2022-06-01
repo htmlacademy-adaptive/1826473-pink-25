@@ -4,11 +4,6 @@
   list-style-type: none;
 }
 
-.comments-item {
-  background-color: #f2f2f2;
-  color: #283645;
-}
-
 .comments__like {
   color: #d22856;
   text-decoration: none;
@@ -29,20 +24,4 @@
 
 .comments__wrapper--current {
   width: 100%;
-}
-
-.comments-item__time {
-  text-transform: uppercase;
-  font-weight: 300;
-}
-
-.users-photo-panorama {
-  color: #ffffff;
-  background-color: #d22856;
-  line-height: 24px;
-  width: 140px;
-  height: 36px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
 }
